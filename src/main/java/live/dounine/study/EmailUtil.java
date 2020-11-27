@@ -19,7 +19,7 @@ public class EmailUtil {
     public EmailUtil() throws Exception{
 
         // 检查邮件服务器信息
-        if (host.equals("") || port.equals("") || username!="" || passwd.equals("")) {
+        if (host.equals("") || port.equals("") || username=="" || passwd.equals("")) {
         		//System.out.println("error!!!");
         		throw new Exception("存在为空项");
         }
